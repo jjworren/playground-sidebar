@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.sidebar {
+  background-color: black;
+  width: 80px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-item {
+  background-color: grey;
+  height: 80px;
+  width: 100%;
+}
+
+.sidebar-item.active {
+  border-left: whitesmoke 4px solid;
+  width: calc(100% - 4px);
+}
+
+.sidebar > .spacer {
+  flex-grow: 1;
+}
